@@ -1,0 +1,17 @@
+
+
+
+
+#springboot 静态资源配置访问路径(一旦使用，默认配置不再启用)
+# 默认：classpath:/static,classpath:/public,classpath:/resources,classpath:/META-INF/resources
+spring:
+  resources:
+    static-locations: classpath:/static,classpath:/public,classpath:/resources,classpath:/META-INF/resources,classpath:/my/
+
+
+  servlet:
+    multipart:
+      max-request-size: 1024MB #一次request上传文件总大小
+      max-file-size: 20MB #单个文件上传大小
+
+

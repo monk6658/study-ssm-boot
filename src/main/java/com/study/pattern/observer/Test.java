@@ -9,7 +9,7 @@ public class Test {
         productList.addObserver(taoBaoObserver);
         productList.addObserver(jingDongObserver);
         productList.addProduct("新产品1");
-
+        
     }
 
 }
